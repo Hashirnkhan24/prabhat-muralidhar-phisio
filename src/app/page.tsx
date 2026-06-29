@@ -73,8 +73,8 @@ export default function Home() {
 							</div>
 
 							<h1 className="text-4xl font-extrabold tracking-tight text-dark-blue sm:text-5xl md:text-6xl lg:text-7.5xl leading-[1.05]">
-								Restore Movement, <br />
-								<span className="text-primary-blue">Reclaim Your Life</span>
+								Move Without Pain, <br />
+								<span className="text-primary-blue">Live Without Limits</span>
 							</h1>
 
 							<p className="mt-6 text-base text-dark-text/75 max-w-xl leading-relaxed font-medium">
