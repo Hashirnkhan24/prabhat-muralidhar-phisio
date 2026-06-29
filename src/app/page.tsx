@@ -104,24 +104,12 @@ export default function Home() {
 							</div>
 
 							{/* Social Proof */}
-							<div className="mt-8 flex flex-wrap items-center gap-3 sm:gap-4">
-								<div className="flex -space-x-3 overflow-hidden">
-									{["SD", "AS", "ML", "DM"].map((initials, idx) => (
-										<div
-											key={idx}
-											className="inline-block h-8 w-8 rounded-full bg-primary-blue/10 border-2 border-white text-primary-blue text-[10px] font-black flex items-center justify-center shadow-sm"
-										>
-											{initials}
-										</div>
-									))}
-								</div>
-								<div className="flex items-center gap-1.5 text-sm font-bold text-dark-blue/90">
-									<span className="text-yellow-500 text-lg">★</span>
-									<span className="font-extrabold text-dark-blue">5.0/5</span>
-									<span className="text-dark-text/60 font-semibold">
-										from 66 Google Reviews
-									</span>
-								</div>
+							<div className="mt-8 flex items-center gap-1.5 text-sm font-bold text-dark-blue/90">
+								<span className="text-yellow-500 text-lg">★</span>
+								<span className="font-extrabold text-dark-blue">5.0/5</span>
+								<span className="text-dark-text/60 font-semibold">
+									from 66 Google Reviews
+								</span>
 							</div>
 						</div>
 
